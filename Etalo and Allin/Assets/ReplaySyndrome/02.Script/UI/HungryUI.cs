@@ -14,7 +14,7 @@ public class HungryUI : MonoBehaviour
     {
         hungryImage = GetComponent<Image>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<EtaloController>();
-        //StartCoroutine("UpdateInfo");
+        StartCoroutine("UpdateInfo");
     }
 
     // Update is called once per frame

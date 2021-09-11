@@ -14,7 +14,7 @@ public class HPUI : MonoBehaviour
     {
         HPImage = GetComponent<Image>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<EtaloController>();
-        //StartCoroutine("UpdateInfo");
+        StartCoroutine("UpdateInfo");
     }
 
     // Update is called once per frame

@@ -297,6 +297,8 @@ public class EtaloController : MonoBehaviourPunCallbacks
                 {
 
                     Instantiate(placeObjectGizmo);
+                    Debug.Log(placeObjectGizmo);
+                    
                     PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "BornFireObject 1"), placeObjectGizmo.transform.position, placeObjectGizmo.transform.rotation);
 
 

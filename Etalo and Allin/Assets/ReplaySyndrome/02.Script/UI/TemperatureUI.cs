@@ -16,7 +16,7 @@ public class TemperatureUI : MonoBehaviour
         temperatureImage = GetComponent<Image>();
         temperatureText = GetComponent<Text>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<EtaloController>();
-        //StartCoroutine("UpdateInfo");
+        StartCoroutine("UpdateInfo");
     }
 
     // Update is called once per frame
