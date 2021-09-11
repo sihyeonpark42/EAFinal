@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5944730059473915508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5944730059473915506}
+  - component: {fileID: 5944730059473915509}
+  m_Layer: 0
+  m_Name: ItemCollection
+  m_TagString: ItemCollection
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5944730059473915506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944730059473915508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5944730059473915509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944730059473915508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2237a984ecf3147ba54accc0019887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bone: {fileID: 3230755897709633253, guid: c8c483ee05f41ed42b40b27042241d30, type: 3}
+  bonfire: {fileID: 3230755897709633253, guid: 1b57982f3b80eba459a0d65feacf58b3, type: 3}
+  branch: {fileID: 3230755897709633253, guid: d71c82928128a334aa44afd93cdc5c50, type: 3}
+  bullet: {fileID: 3230755897709633253, guid: 2fe10ba1abb7f61449f023a9c317d38c, type: 3}
+  cactus: {fileID: 3230755897709633253, guid: d80e26668af6d86498d98612494a0d76, type: 3}
+  cactusfruit: {fileID: 3230755897709633253, guid: 1b5e4c1a0f04da0439972c4deb3b2f6f,
+    type: 3}
+  candy: {fileID: 3230755897709633253, guid: 72a53bf628fe6a54086a60fe8b86c9cc, type: 3}
+  fruit: {fileID: 3230755897709633253, guid: 5fdb3aaa68790284fabc3de98115a5e1, type: 3}
+  grilledmeat: {fileID: 3230755897709633253, guid: c1b2a29a93efece4c90beefd93582d0c,
+    type: 3}
+  gun: {fileID: 3230755897709633253, guid: b5bec1d6350848846b634e943856f54b, type: 3}
+  hatchet: {fileID: 3230755897709633253, guid: 5932cbe40528b3d439a9e813ebd10acf, type: 3}
+  log: {fileID: 3230755897709633253, guid: 88afe15e8f49ba54eb37ae73381a3a56, type: 3}
+  meat: {fileID: 3230755897709633253, guid: 4568f03d13d27f34b8d2fc07761b19e1, type: 3}
+  palmleaf: {fileID: 3230755897709633253, guid: 134cb77811d0b4a4ea7f354a783ccd8f,
+    type: 3}
+  pebble: {fileID: 3230755897709633253, guid: c34cbacbb95fb1b4aa01b6ba9f9b831a, type: 3}
+  petal: {fileID: 3230755897709633253, guid: 4657c88b723d9ef4f82ec69eefe8c740, type: 3}
+  pickax: {fileID: 3230755897709633253, guid: d02399c0e6d902445afbdf07fda8fc92, type: 3}
+  poionjelly: {fileID: 3230755897709633253, guid: 090a4e4644f306549994a769558dc271,
+    type: 3}
+  poisonsac: {fileID: 3230755897709633253, guid: e5d068951c6e7fb47973ea03a3b87a48,
+    type: 3}
+  roastedcactusfruit: {fileID: 3230755897709633253, guid: c553b8536015b4d469b7cfff14803f53,
+    type: 3}
+  rock: {fileID: 3230755897709633253, guid: 593b173c41c29c8478bd1b8033682145, type: 3}
+  rope: {fileID: 3230755897709633253, guid: 67e48302c76052d469433e8da04c8fcb, type: 3}
+  sand: {fileID: 3230755897709633253, guid: c3b7e56cb6a5a8c4d8d0b2652406af56, type: 3}
+  shovel: {fileID: 3230755897709633253, guid: a3dbf8a81d810d141a66b44d9e17ad33, type: 3}
+  skin: {fileID: 3230755897709633253, guid: b21d29960a119fd429bd5b4869261f76, type: 3}
+  slime: {fileID: 3230755897709633253, guid: a469c8a933ebc1041b009cc597a519a6, type: 3}
+  slingshot: {fileID: 3230755897709633253, guid: 7cd44feec7949674fb3ec9fb9935271e,
+    type: 3}
+  soup: {fileID: 3230755897709633253, guid: f023eeaa7e29f23449eac2be38d28e61, type: 3}
+  tent: {fileID: 3230755897709633253, guid: 579104aa5f70c82479c8ba5fe0e9b7c5, type: 3}
+  thread: {fileID: 3230755897709633253, guid: b8dd40d94fec87149937cc8aa05a8fd2, type: 3}
+  water: {fileID: 3230755897709633253, guid: 191bd5bc0a62d8b449b30620eeffac07, type: 3}
+  waterbag: {fileID: 3230755897709633253, guid: 2c1e99ac1d090e54fb3a859ada30faa1,
+    type: 3}
+  bonefireObejct: {fileID: 1067747100698770037, guid: 0818737a93b2eb544a088816f2a4659a,
+    type: 3}

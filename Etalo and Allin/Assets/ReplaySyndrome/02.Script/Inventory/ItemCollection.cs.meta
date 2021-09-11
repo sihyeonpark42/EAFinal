@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: 2a2237a984ecf3147ba54accc0019887
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bone: {fileID: 3230755897709633253, guid: c8c483ee05f41ed42b40b27042241d30, type: 3}
+  - bonfire: {fileID: 3230755897709633253, guid: 1b57982f3b80eba459a0d65feacf58b3,
+      type: 3}
+  - branch: {instanceID: 0}
+  - bullet: {instanceID: 0}
+  - cactus: {instanceID: 0}
+  - cactusfruit: {instanceID: 0}
+  - candy: {instanceID: 0}
+  - fruit: {instanceID: 0}
+  - grilledmeat: {instanceID: 0}
+  - gun: {instanceID: 0}
+  - hatchet: {instanceID: 0}
+  - log: {instanceID: 0}
+  - meat: {instanceID: 0}
+  - palmleaf: {instanceID: 0}
+  - pebble: {instanceID: 0}
+  - petal: {instanceID: 0}
+  - pickax: {instanceID: 0}
+  - poionjelly: {instanceID: 0}
+  - poisonsac: {instanceID: 0}
+  - roastedcactusfruit: {instanceID: 0}
+  - rock: {instanceID: 0}
+  - rope: {instanceID: 0}
+  - sand: {instanceID: 0}
+  - shovel: {instanceID: 0}
+  - skin: {instanceID: 0}
+  - slime: {instanceID: 0}
+  - slingshot: {instanceID: 0}
+  - soup: {instanceID: 0}
+  - tent: {instanceID: 0}
+  - thread: {instanceID: 0}
+  - water: {instanceID: 0}
+  - waterbag: {instanceID: 0}
+  - bonefireObejct: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
