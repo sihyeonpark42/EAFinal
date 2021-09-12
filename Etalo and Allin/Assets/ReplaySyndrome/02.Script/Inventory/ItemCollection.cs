@@ -37,12 +37,22 @@ public class ItemCollection : MonoBehaviour
     public Item thread;
     public Item water;
     public Item waterbag;
-    
+    public Item redflower;
+    public Item orangeflower;
+    public Item yellowflower;
+    public Item greenflower;
+    public Item blueflower;
+    public Item purpleflower;
+    public Item oasisflower;
+    public Item whiteflower;
+
+
 
     private Dictionary<string, Item> composedItemDict;
 
 
     public GameObject bonefireObejct;
+    public GameObject tentObejct;
 
     private void Awake()
     {
@@ -87,15 +97,20 @@ public class ItemCollection : MonoBehaviour
 
         if(itemName == "tent" )
         {
-            //etalo.UIReset();
-            //etalo.itemAssembleState = true;
+
+            etalo.UIReset();
+            etalo.itemAssembleState = true;
+            etalo.placeObject = tentObejct;
+            etalo.placeObjectNum = 2;
+            Cursor.lockState = CursorLockMode.Locked;
+
         }
-        else if (itemName == "bonfire")
+        if (itemName == "bonfire")
         {
             etalo.UIReset();
             etalo.itemAssembleState = true;
             etalo.placeObject = bonefireObejct;
-
+            etalo.placeObjectNum = 1;
 
             Cursor.lockState = CursorLockMode.Locked;
         }

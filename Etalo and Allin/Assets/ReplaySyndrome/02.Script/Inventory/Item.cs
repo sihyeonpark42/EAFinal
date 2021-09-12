@@ -8,6 +8,7 @@ public class Item : MonoBehaviour
     public Sprite originalImage;
     public Sprite detailImage;
     public string itemName;
+    //public int setitemNum;
 
     public string ItemName
     {

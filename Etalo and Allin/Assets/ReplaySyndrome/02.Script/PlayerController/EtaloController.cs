@@ -33,6 +33,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
     public GameObject fieldInteractableObjectItemName;
 
     public GameObject placeObject;
+    public int placeObjectNum;
     public Camera myCamera;
 
 
@@ -297,10 +298,18 @@ public class EtaloController : MonoBehaviourPunCallbacks
                 {
 
                     Instantiate(placeObjectGizmo);
-                    Debug.Log(placeObjectGizmo);
-                    
-                    PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "BornFireObject 1"), placeObjectGizmo.transform.position, placeObjectGizmo.transform.rotation);
+                    //Debug.Log(placeObjectGizmo);
 
+
+                    if (placeObjectNum == 1)
+                    {
+                        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "BornFireObject 1"), placeObjectGizmo.transform.position, placeObjectGizmo.transform.rotation);
+                    }
+
+                    if (placeObjectNum == 2)
+                    {
+                        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Tent 1"), placeObjectGizmo.transform.position, placeObjectGizmo.transform.rotation);
+                    }
 
                     itemAssembleState = false;
                     aimUI.SetActive(true);
@@ -426,7 +435,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
         Ray ray = Camera.main.ScreenPointToRay(new Vector3(Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2, 0));
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider.gameObject.layer == 10 && Vector3.Distance(transform.position, hit.collider.gameObject.transform.position) < 4)
+            if (hit.collider.gameObject.layer == 10 && Vector3.Distance(transform.position, hit.collider.gameObject.transform.position) < 10)
             {
                 if (hit.collider.gameObject != highlightObject && highlightObject != null)
                 {
@@ -491,6 +500,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
                 {
                    
                     Destroy(placeObjectGizmo);
+                    
                     print("기즈모파괴");
                     placeObjectGizmo = null;
                 }

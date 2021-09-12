@@ -1179,8 +1179,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.8, z: 1}
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Size: {x: 2.495636, y: 1.1239815, z: 2.1880188}
+  m_Center: {x: -0.040634155, y: 0.60318756, z: -0.17043304}
 --- !u!95 &8323289062802067717
 Animator:
   serializedVersion: 3
@@ -1214,8 +1214,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowLayerWeightsInspector: 1
   ShowParameterInspector: 1
-  m_SynchronizeParameters: []
-  m_SynchronizeLayers: []
+  m_SynchronizeParameters:
+  - Type: 9
+    SynchronizeType: 0
+    Name: Idle
+  - Type: 9
+    SynchronizeType: 0
+    Name: Attack
+  - Type: 9
+    SynchronizeType: 0
+    Name: Move
+  - Type: 9
+    SynchronizeType: 0
+    Name: Die
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0
 --- !u!195 &8323289062802067718
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1269,7 +1283,9 @@ MonoBehaviour:
   observableSearch: 2
   Synchronization: 3
   OwnershipTransfer: 0
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 8323289062802067716}
+  - {fileID: 8323289062802067714}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
