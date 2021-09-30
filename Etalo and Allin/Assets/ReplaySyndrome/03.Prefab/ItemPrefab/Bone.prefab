@@ -43,6 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0eb64fdbfae924bbcad00c57ca2079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalImage: {fileID: 21300000, guid: 51166fecc906c3d4995ee2c5ec386e7e, type: 3}
-  detailImage: {fileID: 21300000, guid: 4a307d6d1038b5e4eb4821cc69cbc01d, type: 3}
+  originalImage: {fileID: 21300000, guid: 6a0aea7808fc8dc42b41d5e033c1c728, type: 3}
   itemName: bone

@@ -10,11 +10,11 @@ public class MousePointerOnImage : MonoBehaviour , IPointerClickHandler
 {
     private EventTrigger eventTrigger;
     public Image itemImage;
-    public Image detailImagePrefab;
+    //public Image detailImagePrefab;
     public Text itemCountText;
-    public Image detailImage;
+    //public Image detailImage;
 
-    private bool isShowDetailImage = false;
+    //private bool isShowDetailImage = false;
     private Image instantinatedObject = null;
     private bool isAssigned = false;
     
@@ -32,7 +32,7 @@ public class MousePointerOnImage : MonoBehaviour , IPointerClickHandler
     {
         itemCountText = GetComponentInChildren<Text>();
         itemImage = GetComponent<Image>();
-        detailImage = transform.Find("DetailImage").GetComponent<Image>();
+        //detailImage = transform.Find("DetailImage").GetComponent<Image>();
     }
 
     // Start is called before the first frame update
@@ -69,7 +69,7 @@ public class MousePointerOnImage : MonoBehaviour , IPointerClickHandler
         if (instantinatedObject != null)
         {
             Destroy(instantinatedObject.gameObject);
-            isShowDetailImage = false;
+            //isShowDetailImage = false;
         }
     }
 
@@ -80,10 +80,11 @@ public class MousePointerOnImage : MonoBehaviour , IPointerClickHandler
 
         if (isAssigned)
         {
-            instantinatedObject = Instantiate(detailImagePrefab, transform.parent.parent);
-            instantinatedObject.GetComponent<RectTransform>().position = gameObject.transform.position;
-            instantinatedObject.GetComponent<Image>().sprite = detailImage.sprite;
-            isShowDetailImage = true;
+            //instantinatedObject = Instantiate(detailImagePrefab, transform.parent.parent);
+            //instantinatedObject.GetComponent<RectTransform>().position = gameObject.transform.position;
+            //instantinatedObject.GetComponent<RectTransform>().position = gameObject.transform.position;
+            //instantinatedObject.GetComponent<Image>().sprite = detailImage.sprite;
+            //isShowDetailImage = true;
         }
         else
         {
@@ -96,8 +97,8 @@ public class MousePointerOnImage : MonoBehaviour , IPointerClickHandler
     {
         if (isAssigned)
         {
-            Destroy(instantinatedObject.gameObject);
-            isShowDetailImage = false;
+            //Destroy(instantinatedObject.gameObject);
+            //isShowDetailImage = false;
         }
     }
 

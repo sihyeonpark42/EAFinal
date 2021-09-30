@@ -51,12 +51,22 @@ public class Inventory : MonoBehaviour
         itemCollection = GameObject.FindGameObjectWithTag("ItemCollection").GetComponent<ItemCollection>();
         ContentScreen = GameObject.FindObjectOfType<Canvas>().transform.GetChild(0).GetChild(0).GetChild(0).gameObject;
 
-        for (int i = 0; i < 100; ++i)
+        for (int i = 0; i < 5; ++i)
         {
+            AddItem(itemCollection.redflower);
+            AddItem(itemCollection.orangeflower);
+            AddItem(itemCollection.yellowflower);
+            AddItem(itemCollection.greenflower);
+            AddItem(itemCollection.blueflower);
+            AddItem(itemCollection.purpleflower);
+            AddItem(itemCollection.whiteflower);
+            AddItem(itemCollection.oasisflower);
             AddItem(itemCollection.bone);
             AddItem(itemCollection.bonfire);
+            AddItem(itemCollection.tent);
+            AddItem(itemCollection.water);
             AddItem(itemCollection.branch);
-            AddItem(itemCollection.bullet);
+ 
             AddItem(itemCollection.cactus);
             AddItem(itemCollection.cactusfruit);
             AddItem(itemCollection.candy);
@@ -78,12 +88,13 @@ public class Inventory : MonoBehaviour
             AddItem(itemCollection.slime);
             AddItem(itemCollection.slingshot);
             AddItem(itemCollection.soup);
-            AddItem(itemCollection.tent);
+            
             AddItem(itemCollection.thread);
-            AddItem(itemCollection.water);
+            
             AddItem(itemCollection.waterbag);
             AddItem(itemCollection.roastedcactusfruit);
             AddItem(itemCollection.palmleaf);
+            AddItem(itemCollection.bullet);
         }
 
     }

@@ -43,6 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0eb64fdbfae924bbcad00c57ca2079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalImage: {fileID: 21300000, guid: 7961e9f54ee2aa348bd6d885061433d9, type: 3}
-  detailImage: {fileID: 21300000, guid: 4a307d6d1038b5e4eb4821cc69cbc01d, type: 3}
+  originalImage: {fileID: 21300000, guid: 6ef09160b1278064aba620f33d34600d, type: 3}
   itemName: cactus

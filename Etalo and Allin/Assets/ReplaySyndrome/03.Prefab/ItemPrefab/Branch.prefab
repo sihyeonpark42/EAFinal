@@ -43,6 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0eb64fdbfae924bbcad00c57ca2079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalImage: {fileID: 21300000, guid: 3da0212de84218a4c972e8060162c780, type: 3}
-  detailImage: {fileID: 21300000, guid: 4a307d6d1038b5e4eb4821cc69cbc01d, type: 3}
+  originalImage: {fileID: 21300000, guid: 5eb8338a90bd4c944b807d16f14fa821, type: 3}
   itemName: branch

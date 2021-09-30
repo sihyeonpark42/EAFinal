@@ -43,6 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0eb64fdbfae924bbcad00c57ca2079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalImage: {fileID: 21300000, guid: 838ac70c0a46d7e47ad0a84875946589, type: 3}
-  detailImage: {fileID: 21300000, guid: 4a307d6d1038b5e4eb4821cc69cbc01d, type: 3}
+  originalImage: {fileID: 21300000, guid: f2fc36b3156c74e4d9729cdc7b497d9f, type: 3}
   itemName: palmleaf

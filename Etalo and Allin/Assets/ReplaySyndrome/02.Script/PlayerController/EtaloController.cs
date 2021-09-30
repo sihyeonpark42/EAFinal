@@ -7,7 +7,7 @@ using Photon.Realtime;
 using System.IO;
 
 [RequireComponent(typeof(CharacterController))]
-[RequireComponent(typeof(Animator))]
+
 
 public class EtaloController : MonoBehaviourPunCallbacks
 {
@@ -435,7 +435,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
         Ray ray = Camera.main.ScreenPointToRay(new Vector3(Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2, 0));
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider.gameObject.layer == 10 && Vector3.Distance(transform.position, hit.collider.gameObject.transform.position) < 10)
+            if (hit.collider.gameObject.layer == 10 && Vector3.Distance(transform.position, hit.collider.gameObject.transform.position) < 4)
             {
                 if (hit.collider.gameObject != highlightObject && highlightObject != null)
                 {

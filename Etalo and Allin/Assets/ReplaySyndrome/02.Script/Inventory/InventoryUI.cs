@@ -22,6 +22,7 @@ public class InventoryUI : MonoBehaviour
        
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -45,9 +46,9 @@ public class InventoryUI : MonoBehaviour
         for(int i=0;i<playerInventoryList.Count;++i)
         {
             
-            inventoryBoxes[i].detailImagePrefab.sprite = playerInventoryList[i].item.detailImage; // 이게 프리팹이라 같은 이미지가나온다....
+            //inventoryBoxes[i].detailImagePrefab.sprite = playerInventoryList[i].item.detailImage; // 이게 프리팹이라 같은 이미지가나온다....
             inventoryBoxes[i].itemImage.sprite = playerInventoryList[i].item.originalImage;
-            inventoryBoxes[i].detailImage.sprite = playerInventoryList[i].item.detailImage;
+            //inventoryBoxes[i].detailImage.sprite = playerInventoryList[i].item.detailImage;
             inventoryBoxes[i].itemCountText.text = playerInventoryList[i].Count.ToString();
             inventoryBoxes[i].IsAssigned = true;
         }

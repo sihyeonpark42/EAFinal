@@ -43,6 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0eb64fdbfae924bbcad00c57ca2079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalImage: {fileID: 21300000, guid: c780de1c0c292b344b64b75dda46714e, type: 3}
-  detailImage: {fileID: 21300000, guid: 4a307d6d1038b5e4eb4821cc69cbc01d, type: 3}
+  originalImage: {fileID: 21300000, guid: c784acfb9c0b6d14ca74b6808493a8b7, type: 3}
   itemName: picksac

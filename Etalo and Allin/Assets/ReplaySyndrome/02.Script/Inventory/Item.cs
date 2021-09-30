@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Item : MonoBehaviour
 {
     public Sprite originalImage;
-    public Sprite detailImage;
+    //public Sprite detailImage;
     public string itemName;
     //public int setitemNum;
 

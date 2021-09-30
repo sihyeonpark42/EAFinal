@@ -43,6 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0eb64fdbfae924bbcad00c57ca2079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalImage: {fileID: 0}
+  originalImage: {fileID: 21300000, guid: 055f02085a91da44399a6e4c34e18a67, type: 3}
   detailImage: {fileID: 0}
   itemName: blue flower
