@@ -51,7 +51,7 @@ public class Inventory : MonoBehaviour
         itemCollection = GameObject.FindGameObjectWithTag("ItemCollection").GetComponent<ItemCollection>();
         ContentScreen = GameObject.FindObjectOfType<Canvas>().transform.GetChild(0).GetChild(0).GetChild(0).gameObject;
 
-        for (int i = 0; i < 5; ++i)
+        for (int i = 0; i < 10; ++i)
         {
             AddItem(itemCollection.redflower);
             AddItem(itemCollection.orangeflower);
@@ -88,15 +88,19 @@ public class Inventory : MonoBehaviour
             AddItem(itemCollection.slime);
             AddItem(itemCollection.slingshot);
             AddItem(itemCollection.soup);
-            AddItem(itemCollection.bullet);
+        
             AddItem(itemCollection.thread);
             
             AddItem(itemCollection.waterbag);
             AddItem(itemCollection.roastedcactusfruit);
             AddItem(itemCollection.palmleaf);
-            AddItem(itemCollection.bullet);
+            
         }
 
+        for (int i = 0; i<100; i++)
+        {
+            AddItem(itemCollection.bullet);
+        }
     }
 
     // Update is called once per frame

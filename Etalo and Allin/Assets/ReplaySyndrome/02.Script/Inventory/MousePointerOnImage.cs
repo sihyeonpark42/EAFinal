@@ -97,7 +97,7 @@ public class MousePointerOnImage : MonoBehaviour , IPointerClickHandler
     {
         if (isAssigned)
         {
-            //Destroy(instantinatedObject.gameObject);
+            Destroy(instantinatedObject.gameObject);
             //isShowDetailImage = false;
         }
     }
