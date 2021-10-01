@@ -21,7 +21,7 @@ public class MinimapMoveUI : MonoBehaviour
     void Update()
     {
         
-        minimapRT.anchoredPosition = new Vector2(-playerTransform.position.x + 500, -playerTransform.position.z + 500);
+        minimapRT.anchoredPosition = new Vector2(-playerTransform.position.x + 250, -playerTransform.position.z + 250);
         
         
     }
