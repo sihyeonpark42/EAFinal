@@ -206,7 +206,7 @@ public class Monster : MonoBehaviour
 
     void AttackPlayer()
     {
-        player[selectedPlayerIndex].GetComponent<EtaloController>().DamagedFromMonster(20f);
+        player[selectedPlayerIndex].GetComponent<EtaloController>().DamagedFromMonster(2f);
         print("AttackToPlayer");
     }
 
