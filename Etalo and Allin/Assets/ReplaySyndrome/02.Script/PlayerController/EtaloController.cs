@@ -560,9 +560,9 @@ public class EtaloController : MonoBehaviourPunCallbacks
     void CharacterInfoSetting()
     {
         currHP -= Time.deltaTime * 0.05f;
-        currTemperature -= Time.deltaTime * 0.005;
-        currHungry -= Time.deltaTime * 0.5f;
-        currThirst -= Time.deltaTime * 0.5f;
+        currTemperature += Time.deltaTime * 0.005;
+        currHungry -= Time.deltaTime * 0.2f;
+        currThirst -= Time.deltaTime * 0.05f;
     }
 
 
