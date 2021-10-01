@@ -46,7 +46,7 @@ MonoBehaviour:
   bone: {fileID: 3230755897709633253, guid: c8c483ee05f41ed42b40b27042241d30, type: 3}
   bonfire: {fileID: 3230755897709633253, guid: 1b57982f3b80eba459a0d65feacf58b3, type: 3}
   branch: {fileID: 3230755897709633253, guid: d71c82928128a334aa44afd93cdc5c50, type: 3}
-  bullet: {fileID: 3230755897709633253, guid: 2fe10ba1abb7f61449f023a9c317d38c, type: 3}
+  bullet: {fileID: -8403158995559718456, guid: 9696c1a22a1d162469b93e6fc316d690, type: 3}
   cactus: {fileID: 3230755897709633253, guid: d80e26668af6d86498d98612494a0d76, type: 3}
   cactusfruit: {fileID: 3230755897709633253, guid: 1b5e4c1a0f04da0439972c4deb3b2f6f,
     type: 3}

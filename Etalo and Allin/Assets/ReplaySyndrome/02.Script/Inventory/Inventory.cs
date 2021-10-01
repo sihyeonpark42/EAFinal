@@ -88,7 +88,7 @@ public class Inventory : MonoBehaviour
             AddItem(itemCollection.slime);
             AddItem(itemCollection.slingshot);
             AddItem(itemCollection.soup);
-            
+            AddItem(itemCollection.bullet);
             AddItem(itemCollection.thread);
             
             AddItem(itemCollection.waterbag);
