@@ -29,6 +29,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
     public GameObject inventoryUI = null;
     public GameObject composeUI = null;
     public GameObject aimUI = null;
+    public GameObject statusUI = null;
     public GameObject cameraArm;
     public GameObject fieldInteractableObjectItemName;
 
@@ -51,6 +52,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
     private bool inventoryUIIsActive = false;
     private bool composeUIIsActive = false;
     private bool aimUIIsActive = false;
+    private bool statusUIIsActive = false;
     #endregion
 
 
@@ -135,6 +137,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
         aimUI = mainCanvas.transform.Find("AimUI").gameObject;
         inventoryUI = mainCanvas.transform.Find("InventoryUI").gameObject;
         composeUI = mainCanvas.transform.Find("ComposeUI").gameObject;
+        statusUI = mainCanvas.transform.Find("StatusUI").gameObject;
         armature = transform.Find("Armature");
 
         fieldInteractableObjectItemName = mainCanvas.transform.Find("FieldInteractableItemName").gameObject;
@@ -404,6 +407,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
             {
                 composeUI.SetActive(false);
                 aimUI.SetActive(true);
+                statusUI.SetActive(true);
                 Cursor.lockState = CursorLockMode.Locked;
                 composeUIIsActive = false;
             }
@@ -412,6 +416,7 @@ public class EtaloController : MonoBehaviourPunCallbacks
                
                 composeUI.SetActive(true);
                 aimUI.SetActive(false);
+                statusUI.SetActive(false);
                 Cursor.lockState = CursorLockMode.None;
                 composeUIIsActive = true;
             }
@@ -586,11 +591,13 @@ public class EtaloController : MonoBehaviourPunCallbacks
         inventoryUIIsActive = false;
         composeUIIsActive = false;
         aimUIIsActive = false;
+        
 
 
         inventoryUI.SetActive(false);
         composeUI.SetActive(false);
         aimUI.SetActive(false);
+        statusUI.SetActive(false);
 
         
     }

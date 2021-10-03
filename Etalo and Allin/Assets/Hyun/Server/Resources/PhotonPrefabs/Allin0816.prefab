@@ -1122,6 +1122,7 @@ MonoBehaviour:
   fieldInteractableObjectItemName: {fileID: 0}
   placeObject: {fileID: 1067747100698770037, guid: 0818737a93b2eb544a088816f2a4659a,
     type: 3}
+  placeObjectNum: 0
   myCamera: {fileID: 0}
   laserGun: {fileID: 7290323139014964961}
   footprint: {fileID: 8514325090803732117, guid: f4843ebe65628674f839ef3ed5a146aa,
