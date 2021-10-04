@@ -38,7 +38,7 @@ public class PlayerManager : MonoBehaviour
 			return;
         }
 		Debug.Log("RPC_CreateCharacter");
-		Vector3 pos = new Vector3(81, 11, 0);
+		Vector3 pos = new Vector3(3461, 30, 1790);
 		characterValue = Character;
 		
         if (characterValue == 0)

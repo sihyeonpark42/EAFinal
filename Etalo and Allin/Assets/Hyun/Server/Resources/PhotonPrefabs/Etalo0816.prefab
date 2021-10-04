@@ -4876,12 +4876,12 @@ PrefabInstance:
     - target: {fileID: 6242748035452301823, guid: b6a8099b81ffc614e993dede3700dce9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 5000
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 6242748035452301823, guid: b6a8099b81ffc614e993dede3700dce9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 5000
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 6253775838607529394, guid: b6a8099b81ffc614e993dede3700dce9,
         type: 3}
